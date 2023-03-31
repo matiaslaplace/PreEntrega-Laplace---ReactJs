@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+.carritoCompras {
+  margin-right: 2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.numeroCarrito {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  text-align: center;
+
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  color: white;
+  background-color: red;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
