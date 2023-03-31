@@ -34,6 +34,15 @@
   cursor: pointer;
 }
 
+.saludo {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  color: green;
+  font-weight: 500;
+  font-size: x-large;
+}
+
 .numeroCarrito {
   position: absolute;
   top: -2px;
