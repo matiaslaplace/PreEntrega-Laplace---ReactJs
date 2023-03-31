@@ -1,11 +1,10 @@
 import React from "react";
 import CartWidget from "../CartWidget/CartWidget";
-import logo from "./Squishypenguinstitle.png";
+//import logo from "./Squishypenguinstitle.png";
 
 const NavBar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
-      <img src={logo}></img>
       <a class="navbar-brand" href="#">
         Squishy Penguins
       </a>
@@ -20,7 +19,6 @@ const NavBar = () => {
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
