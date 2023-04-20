@@ -1,11 +1,13 @@
 import React, { Fragment, useState } from "react";
+import { useParams } from "react-router-dom";
 import ItemListContainer from "../componentes/ItemListContainer/ItemListContainer";
 import useFetch from "../utils/useFetch";
 const BASE_URL = "https://fakestoreapi.com/products";
 
 const ProductsView = (props) => {
   const [count, setCount] = useState(0);
-  const [data, loading] = useFetch(BASE_URL);
+  const { categoryId } = useParams();
+  const [data, loading] = useFetch(BASE_URL, categoryId);
 
   const updateCount = () => {
     setCount(count + 1);

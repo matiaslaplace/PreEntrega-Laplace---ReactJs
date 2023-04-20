@@ -18,6 +18,7 @@ function App() {
           path="/products/detail/:idProduct"
           element={<DetailProductView />}
         ></Route>
+        <Route path={routes.categoriesView} element={<ProductsView />}></Route>
       </Routes>
     </BrowserRouter>
   );

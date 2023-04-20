@@ -1,5 +1,6 @@
 export const routes = {
-    root:"/",
-    aboutView:"/about",
-    detailProductView:"/products/detail/:idProduct"
+  root: "/",
+  aboutView: "/about",
+  categoriesView: "/category/:categoryId",
+  detailProductView: "/products/detail/:idProduct",
 };
